@@ -7,7 +7,14 @@ hr {
 }
 h1 {
 	color: white;
+	padding: 40px;
+	font-family: tahoma;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,22 +43,12 @@ h1 {
     }
 }
 
-.full-width-container {
-    position: relative;
-    width: 100%;
-}
-
-.full-width-image {
-    width: 100%;
+.box {
+	width: 100%;
     height: auto;
     display: block;
-}
-
-.image-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(70%, -50%);
-    text-align: center;
-    color: #fff;
+	background-image: url("pictures/33.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }

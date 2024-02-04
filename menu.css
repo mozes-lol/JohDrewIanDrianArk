@@ -52,3 +52,7 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+.rounded {
+	border-radius: 1vh;
+}

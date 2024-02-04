@@ -1,0 +1,31 @@
+.ofbb {
+    background-color: gray;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.picture {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    max-height: 200px; /* Set a maximum height for the images */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-bubble {
+    background-color: gray;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.rounded {
+	border-radius: 1vh;
+}
